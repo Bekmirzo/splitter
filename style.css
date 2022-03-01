@@ -1,0 +1,29 @@
+.parent{
+    border: 10px solid green;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.parent div{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    resize: both;
+}
+
+.d1{
+    border: 10px solid blue;
+    width: 20%;
+}
+.d2{
+    border: 10px solid red;
+    width: 20%;
+}
+.d0{
+    border: 10px solid black;
+    cursor: e-resize;
+}
